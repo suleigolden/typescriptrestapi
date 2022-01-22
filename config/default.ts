@@ -1,7 +1,9 @@
 export default {
     port: 1337,
-    dbUri: 'mongodb://localhost:27017/typescript-rest-api',
+    dbUri: 'mongodb://localhost:27017/rest-api-tutorial',
     saltWorkFactory: 10,
+    accessTokenTtl : "15m",
+    refreshTokenTtl : "1y",
     publickey: `-----BEGIN PUBLIC KEY-----
     MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8TAZjO2cCnpkDXbpSI0jZOWv0
     bSGGljamNdhWNqEZqCXMwEy1HMkGbe5zTYgsdUWrYk6QfCTFRPCHzopERZezp0F4
